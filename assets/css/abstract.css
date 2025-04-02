@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #4C5FD5;
+    --secondary-color: #dadbf1;
+    --header-footer-bg-color: #000000;
+    --background-color: #fff;
+    --text-color: #000000;
+    --header-footer-text-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-footer-bg-color);
+    color: var(--header-footer-text-color);
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--header-footer-text-color);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.btn-secondary {
+    background-color: transparent;
+    color: var(--header-footer-text-color);
+    padding: 1rem 2rem;
+    border: 1px solid var(--header-footer-text-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}

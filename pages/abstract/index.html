@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="../../assets/css/abstract.css">
 </head>
@@ -13,6 +17,9 @@
             <h2>Abstract | <span>Help Center</span></h2>
         </div>
         <div class="button-menu">
+            <div class="input-search-container">
+                <input type="search" name="help-searcher" id="help-searcher" placeholder="Search">
+            </div>
             <button class="btn btn-secondary">Submit a request</button>
             <button class="btn btn-primary">Sign in</button>
         </div>
@@ -21,20 +28,27 @@
         <div class="hero">
             <h2>How can we help?</h2>
             <form action="">
-                <input type="search" name="help-searcher" id="help-searcher" placeholder="Search">
+                <div class="input-search-container">
+                    <input type="search" name="help-searcher" id="help-searcher" placeholder="Search">
+                    <i class="fas fa-arrow-right icon"></i>
+                </div>
             </form>
         </div>
         <div class="main-themes-container">
-            <div class="main-theme">
-                <div class="icon-container"></div>
+            <div class="main-theme using-abstract">
+                <div class="icon-container">
+                    <i class="fa-solid fa-code-branch"></i>
+                </div>
                 <div class="info-container">
                     <div class="title">Using Abstract</div>
                     <div class="description">Abstract lets you manage, version, and document your designs in one place.</div>
                     <div class="learn-more">Learn More</div>
                 </div>
             </div>
-            <div class="main-theme">
-                <div class="icon-container"></div>
+            <div class="main-theme manage-account">
+                <div class="icon-container">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
                 <div class="info-container">
                     <div class="title">
                         Manage your account
@@ -43,32 +57,40 @@
                     <div class="learn-more">Learn More</div>
                 </div>
             </div>
-            <div class="main-theme">
-                <div class="icon-container"></div>
+            <div class="main-theme manage-organizations">
+                <div class="icon-container">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
                 <div class="info-container">
                     <div class="title">Manage organizations, teams, and projects</div>
                     <div class="description">Use Abstract organizations, teams, and projects to organize your people and your work.</div>
                     <div class="learn-more">Learn More</div>
                 </div>
             </div>
-            <div class="main-theme">
-                <div class="icon-container"></div>
+            <div class="main-theme manage-billing">
+                <div class="icon-container">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
                 <div class="info-container">
                     <div class="title">Manage billing</div>
                     <div class="description">Change subscriptions and payment details.</div>
                     <div class="learn-more">Learn More</div>
                 </div>
             </div>
-            <div class="main-theme">
-                <div class="icon-container"></div>
+            <div class="main-theme authenticate-abstract">
+                <div class="icon-container">
+                    <i class="fa-solid fa-key"></i>
+                </div>
                 <div class="info-container">
                     <div class="title">Authenticate to Abstract</div>
                     <div class="description">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</div>
                     <div class="learn-more">Learn More</div>
                 </div>
             </div>
-            <div class="main-theme">
-                <div class="icon-container"></div>
+            <div class="main-theme abstract-support">
+                <div class="icon-container">
+                    <i class="fa-solid fa-comment-dots"></i>
+                </div>
                 <div class="info-container">
                     <div class="title">Abstract support</div>
                     <div class="description">Get in touch with a human.</div>

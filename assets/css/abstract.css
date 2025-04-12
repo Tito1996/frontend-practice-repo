@@ -45,6 +45,10 @@ header h2 span {
     text-decoration: underline;
 }
 
+.title-container:hover {
+    cursor: pointer;
+}
+
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--header-footer-text-color);
@@ -71,6 +75,10 @@ footer h6 {
 }
 footer div {
     align-self: flex-start;
+}
+footer div a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .contact-container {
@@ -185,6 +193,10 @@ header .input-search-container input{
 
 .manage-billing {
     grid-area: 2 / 2 / 3 / 3;
+}
+.manage-billing .icon-container {
+    display: flex;
+    justify-content: center;
 }
 
 .authenticate-abstract {

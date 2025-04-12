@@ -146,24 +146,33 @@ header .input-search-container input{
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
     width: 80%;
-    margin: 4rem 0;
+    margin: 15rem 0 10rem;
 }
 
 .main-theme {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     gap: 2rem;
+    width: 100%;
 }
 .main-theme .icon-container {
-    width: 12rem;
+    width: 7.5rem;
+    height: 100%;
 }
 .main-theme i {
     font-size: 6rem;
 }
+.main-theme .info-container {
+    width: 45rem;
+    height: 100%;
+}
 
 .using-abstract {
     grid-area: 1 / 1 / 2 / 2;
+}
+.using-abstract .icon-container i{
+    transform: rotate(90deg);
 }
 
 .manage-account {
@@ -184,4 +193,24 @@ header .input-search-container input{
 
 .abstract-support {
     grid-area: 3 / 2 / 4 / 3;
+}
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.description {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+.learn-more {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.learn-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

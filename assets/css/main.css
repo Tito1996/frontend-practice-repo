@@ -13,6 +13,8 @@ html {
 body {
     margin: 0;
     width: 100%;
+    background: #6da8bf;
+    background: linear-gradient(120deg, rgba(109, 168, 191, 1) 0%, rgba(166, 247, 201, 1) 50%, rgba(245, 234, 149, 1) 100%);
     max-width: 100%;
     min-height: 100%;
 }
@@ -90,16 +92,33 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
 }
 
-.mosaic-element img {
+.abstract-element img {
     max-width: 100%;
     max-height: 100%;
     margin: 0 0 1rem 0;
     border-radius: 1rem 1rem 0 0;
 }
 
-.mosaic-element a {
+.abstract-element a, .ableton-element a {
     margin: 0 0 1rem 0;
+}
+
+.ableton-element {
+    gap: 1rem;
+}
+
+.ableton-image-container {
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgb(240, 240, 240)),
+        url('../img/ableton/C1-Ableton.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0;
 }

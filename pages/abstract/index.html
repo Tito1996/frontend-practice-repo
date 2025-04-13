@@ -4,8 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/abstract.css">
 </head>
 <body>
-    
+    <header>
+        <div class="title-container">
+            <h2>Abstract | <span>Help Center</span></h2>
+        </div>
+        <div class="button-menu">
+            <div class="input-search-container">
+                <input type="search" name="help-searcher" id="help-searcher" placeholder="Search">
+            </div>
+            <button class="btn btn-secondary">Submit a request</button>
+            <button class="btn btn-primary">Sign in</button>
+        </div>
+        <div class="responsive-button-menu">
+            <div class="search-button-icon">
+                <input type="checkbox" id="search-toggle" />
+                <label for="search-toggle" class="button-search">
+                    <i class="fas fa-search"></i>
+                </label>
+                <div class="header-search-responsive-input">
+                    <input type="text" placeholder="Search" />
+                </div>
+            </div>
+            <nav class="navbar">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <ul class="menu">
+                    <li><button class="btn btn-secondary">Submit a request</button></li>
+                    <li><hr></li>
+                    <li><button class="btn btn-primary">Sign in</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="abstract-container">
+        <div class="hero">
+            <h2>How can we help?</h2>
+            <form action="">
+                <div class="input-search-container">
+                    <input type="search" name="help-searcher" id="help-searcher" placeholder="Search" list="lista-ayuda">
+                    <i class="fas fa-arrow-right icon"></i>
+                    <datalist id="lista-ayuda">
+                        <option value="How to use Abstract?"></option>
+                        <option value="How to manage my account?"></option>
+                        <option value="How to manage organizations, teams, and projects?"></option>
+                        <option value="How to manage billing?"></option>
+                        <option value="How to authenticate to Abstract?"></option>
+                        <option value="How to contact Abstract support?"></option>
+                </div>
+            </form>
+        </div>
+        <div class="main-themes-container">
+            <div class="main-theme using-abstract">
+                <div class="icon-container">
+                    <i class="fa-solid fa-code-branch"></i>
+                </div>
+                <div class="info-container">
+                    <div class="title">Using Abstract</div>
+                    <div class="description">Abstract lets you manage, version, and document your designs in one place.</div>
+                    <div class="learn-more">Learn More →</div>
+                </div>
+            </div>
+            <div class="main-theme manage-account">
+                <div class="icon-container">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="info-container">
+                    <div class="title">
+                        Manage your account
+                    </div>
+                    <div class="description">Configure your account settings, such as your email, profile details, and password.</div>
+                    <div class="learn-more">Learn More →</div>
+                </div>
+            </div>
+            <div class="main-theme manage-organizations">
+                <div class="icon-container">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
+                <div class="info-container">
+                    <div class="title">Manage organizations, teams, and projects</div>
+                    <div class="description">Use Abstract organizations, teams, and projects to organize your people and your work.</div>
+                    <div class="learn-more">Learn More →</div>
+                </div>
+            </div>
+            <div class="main-theme manage-billing">
+                <div class="icon-container">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="info-container">
+                    <div class="title">Manage billing</div>
+                    <div class="description">Change subscriptions and payment details.</div>
+                    <div class="learn-more">Learn More →</div>
+                </div>
+            </div>
+            <div class="main-theme authenticate-abstract">
+                <div class="icon-container">
+                    <i class="fa-solid fa-key"></i>
+                </div>
+                <div class="info-container">
+                    <div class="title">Authenticate to Abstract</div>
+                    <div class="description">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</div>
+                    <div class="learn-more">Learn More →</div>
+                </div>
+            </div>
+            <div class="main-theme abstract-support">
+                <div class="icon-container">
+                    <i class="fa-solid fa-comment-dots"></i>
+                </div>
+                <div class="info-container">
+                    <div class="title">Abstract support</div>
+                    <div class="description">Get in touch with a human.</div>
+                    <div class="learn-more">Learn More →</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="abstract-links">
+            <h6>Abstract</h6>
+            <ul>
+                <li><a href="">Start Trial</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Download</a></li>
+            </ul>
+            
+            
+            
+        </div>
+        <div class="resources-links">
+            <h6>Resources</h6>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Help Center</a></li>
+                <li><a href="">Release Notes</a></li>
+                <li><a href="">Status</a></li>
+            </ul>
+        </div>
+        <div class="community-links">
+            <h6>Community</h6>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Dribbble</a></li>
+                <li><a href="">Podcast</a></li>
+            </ul>
+        </div>
+        <div class="company-links">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Legal</a></li>
+            </ul>
+            <div class="contact-container">
+                <p>Contact Us</p>
+                <a href="mailto:info@abstract.com">info@abstract.com</a>
+            </div>
+        </div>
+        <div class="copyright-section">
+            <div class="copyright-text">
+                <p>
+                    © Copyright 2025 <br>
+                    Abstract Studio Design, Inc. <br>
+                    All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
